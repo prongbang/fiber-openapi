@@ -13,8 +13,10 @@ github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWE
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/mattn/go-runewidth v0.0.16 h1:E5ScNMtiwvlvB5paMFdw9p4kSQzbXFikJ5SQO6TULQc=
 github.com/mattn/go-runewidth v0.0.16/go.mod h1:Jdepj2loyihRzMpdS35Xk/zdY8IAYHsh153qUoGf23w=
-github.com/prongbang/oapigen v0.0.2 h1:fpfw8TxIc5tZwNmPR64z01KRfjZYLxF9cNO3uBHne1E=
-github.com/prongbang/oapigen v0.0.2/go.mod h1:MsKw+6of8gLhSbfGEz5AtTOjGlB7WG+r5pONkbF8K7U=
+github.com/prongbang/oapigen v0.0.3 h1:RVGmuxQzMYU6ufP7LwsopeuuOLmTqXB272sALdiTPR0=
+github.com/prongbang/oapigen v0.0.3/go.mod h1:MsKw+6of8gLhSbfGEz5AtTOjGlB7WG+r5pONkbF8K7U=
+github.com/prongbang/oapigen v0.0.4 h1:HU042Csu/Lu8tNO/dBGt4yoFKNOjcI3i3JWupQl1IYc=
+github.com/prongbang/oapigen v0.0.4/go.mod h1:MsKw+6of8gLhSbfGEz5AtTOjGlB7WG+r5pONkbF8K7U=
 github.com/rivo/uniseg v0.2.0 h1:S1pD9weZBuJdFmowNwbpi7BJ8TNftyUImj/0WQi72jY=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/valyala/bytebufferpool v1.0.0 h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6KllzawFIhcdPw=

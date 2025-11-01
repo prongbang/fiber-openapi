@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
+	"net/http"
 	"strconv"
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/inteniquetic/fiberopenapi"
+	"github.com/prongbang/fiberopenapi"
 	"github.com/prongbang/oapigen"
 )
 
@@ -24,13 +25,14 @@ func main() {
 
 	// OpenAPI middleware
 	app.Use(fiberopenapi.New(oapigen.Config{
-		Title:     "My API",
-		Version:   "1.0.0",
-		ServerURL: "http://localhost:3000",
-		JSONPath:  "/openapi.json",
-		DocsPath:  "/docs",
-		SpecFile:  "./docs/openapi.json",
-		Observe:   oapigen.ObsEnable,
+		Title:         "My API",
+		Version:       "1.0.0",
+		ServerURL:     "http://localhost:3000",
+		JSONPath:      "/openapi.json",
+		DocsPath:      "/docs",
+		SpecFile:      "./docs/openapi.json",
+		ExcludeMethod: []string{http.MethodHead, http.MethodConnect, http.MethodOptions},
+		Observe:       oapigen.ObsEnable,
 	}))
 
 	// --- GET: /healthz

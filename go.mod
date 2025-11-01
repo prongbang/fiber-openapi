@@ -1,10 +1,10 @@
-module github.com/inteniquetic/fiberopenapi
+module github.com/prongbang/fiberopenapi
 
 go 1.24.4
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.9
-	github.com/prongbang/oapigen v0.0.2
+	github.com/prongbang/oapigen v0.0.4
 )
 
 require (
